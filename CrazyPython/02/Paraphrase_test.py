@@ -10,13 +10,7 @@
 one = "hello\nworld\ngood\nmorning"
 print(one)
 
-two ="名称\t\t单价\t数量\t总价"
-three ="Python学习\t78\t\t1\t\t78"
+two = "名称\t\t单价\t数量\t总价"
+three = "Python学习\t78\t\t1\t\t78"
 print(two)
 print(three)
-
-
-
-
-
-
