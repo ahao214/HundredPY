@@ -65,3 +65,37 @@ print("clear方法")
 c_list.clear()
 print(c_list)
 
+print("修改列表元素")
+d_list =["crazy", 20, -10, ("a", "b"), "ahao"]
+print(d_list)
+# 修改第3个元素
+d_list[2] = "ahao"
+print(d_list)
+# 修改倒数第2个元素
+d_list[-2]="214"
+print(d_list)
+
+e_list = list(range(1, 5))
+print(e_list)
+# 将第2个到第4个元素修改(不包含第4个)
+e_list[1:3] = ["a", "b"]
+print(e_list)
+
+
+
+count_list = [10, 20, 2, 3, (10,20), 10,10]
+# 计算列表中10的个数
+print(count_list.count(10))
+# 定位20的位置
+print(count_list.index(20))
+
+print("顺序反转")
+r_list = list(range(1, 10))
+r_list.reverse()
+print(r_list)
+
+print("sort排序")
+r_list = [1,3,90,8,4, 3, 4,5]
+r_list.sort()
+print(r_list)
+
