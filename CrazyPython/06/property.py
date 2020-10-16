@@ -34,7 +34,7 @@ print(rect.size)
 
 # 对rect的size属性赋值
 rect.size = 9, 7
-# 访问rect的widht、height实例变量
+# 访问rect的width、height实例变量
 print(rect.width)
 print(rect.height)
 
