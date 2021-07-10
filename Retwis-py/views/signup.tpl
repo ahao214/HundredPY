@@ -10,7 +10,7 @@
 <body>
     <h2>Retwis</h2>
     <hr>
-    <form action="/singup" method="POST">
+    <form action="/signup" method="POST">
         用户名:
         <input type="text" name="username" id=""> 密码:
         <input type="text" name="password" id="">
