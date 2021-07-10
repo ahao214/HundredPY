@@ -71,4 +71,9 @@ def login():
     return dict()
 
 
+@bottle.get('/public/<filename:path>')
+def send_static(filename):
+    return bottle.static_file(filename, root='public/')
+
+
 bottle.run(reloader=True)
