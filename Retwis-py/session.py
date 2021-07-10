@@ -1,6 +1,7 @@
 import settings
 import random
 import pickle
+from  bottle import request,response
 
 
 r = settings.r
@@ -37,7 +38,7 @@ class Session(dict):
 
     def save(self):
         if not self._isvalid:
-            r.set(self._sid, pickle.dumps(self.copy))
+            r.set(self._sid, pickle.dumps(self.copy()))
             r.expire(self._sid, self._timeout)
 
     def is_new(self):
