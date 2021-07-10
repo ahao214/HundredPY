@@ -1,7 +1,7 @@
 import settings
 import random
 import pickle
-from  bottle import request,response
+from bottle import request, response
 
 
 r = settings.r
@@ -44,5 +44,9 @@ class Session(dict):
     def is_new(self):
         return self._new
 
+    # 注销
     def invalid(self):
-        pass
+        self.response.set_cookie(self._name, '', expire='-100')
+        r.delete(self._sid)
+        self.clear()
+        self._isvalid = True
