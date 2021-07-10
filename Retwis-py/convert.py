@@ -1,4 +1,4 @@
-def to_string(bytes_data: bytes):
+def to_string(bytes_data: bytes) -> str:
     return bytes_data.decode('utf-8')
 
 

@@ -1,6 +1,9 @@
+import imp
 import bottle
 import settings
 import session
+import time
+from convert import to_string, to_list, to_dict, to_set
 
 r = settings.r
 
@@ -16,9 +19,40 @@ def islogin():
 @bottle.get('/')
 @bottle.view('index')
 def index():
-    uid=islogin()
+    uid = islogin()
     if uid:
-        return dict()
+        username = to_string(r.hget('user:{}'.format(uid), 'username'))
+        posts_id = to_list(r.lrange('user:{}:timeline'.format(uid), 0, 9))
+        posts = {}
+        # 博客
+        for pid in posts_id:
+            post = to_dict(r.hgetall('post:{}'.format(pid)))
+            post['username'] = to_string(
+                r.hget('user:{}'.format(post['userid']), 'username'))
+            posts[pid] = post
+
+        # 粉丝
+        followers = to_list(r.smembers('user:{}:followers'.format(uid)))
+        followers = [to_string(r.hget('user:{}'.format(uid), 'username'))
+                     for uid in followers]
+        # 粉丝数量
+        followers_num = r.scard('user:{}:followers'.format(uid))
+        # 关注
+        following = to_list(r.smembers('user:{}.following'.format(uid)))
+        following = [to_string(r.hget('user:{}'.format(uid), 'username'))
+                     for uid in following]
+        # 关注数量
+        following_num = r.scard('user:{}:following'.format(uid))
+
+        res = {
+            'username': username,
+            'posts': posts,
+            'followers': followers,
+            'following': following,
+            'followers_num': followers_num,
+            'following_num': following_num
+        }
+        return res
     else:
         bottle.redirect('/signup')
 
@@ -38,7 +72,7 @@ def signup():
     # 判断uid是否已经注册
     uid = r.hget('users', username)
     if not uid:
-        uid = r.incr('user:id')
+        uid = r.incr('user:uid')
         udata = {
             'username': username,
             'password': password
@@ -63,13 +97,37 @@ def login():
     uid = r.hget('users', username).decode('utf-8')
     if uid:
         upassword = r.hget('user:{}'.format(uid), 'password').decode('utf-8')
-        if password == upassword:
+        if upassword == password:
             sess = session.Session(bottle.request, bottle.response)
-            sess['uid'] = uid
+            sess['id'] = uid
             sess.save()
             bottle.redirect('/')
 
     return dict()
+
+
+@bottle.post('/post')
+def post():
+    uid = islogin()
+    if uid:
+        content = bottle.request.POST['content']
+        pid = r.incr('post:uid')
+        pdata = {
+            'userid': uid,
+            'content': content,
+            'posttime': time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        }
+
+        r.hmset('post:{}'.format(pid), pdata)
+
+        r.lpush('user:{}:timeline'.format(uid), pid)
+        r.lpush('user:{}:posts'.format(uid), pid)
+        r.lpush('timeline', pid)
+        r.sadd('posts:id', pid)
+        bottle.redirect('/')
+
+    else:
+        bottle.redirect('/signup')
 
 
 @bottle.get('/public/<filename:path>')
