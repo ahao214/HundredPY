@@ -1,13 +1,25 @@
 import bottle
 import settings
+import session
 
 r = settings.r
+
+
+def islogin():
+    sess = session.Session(bottle.request, bottle.response)
+    if sess.is_new():
+        return False
+    else:
+        return True
 
 
 @bottle.get('/')
 @bottle.view('index')
 def index():
-    return dict()
+    if islogin():
+        return dict()
+    else:
+        bottle.redirect('/signup')
 
 
 @bottle.get('/signup')
@@ -32,8 +44,14 @@ def signup():
         }
         r.hmset('user:{}'.format(uid), udata)
         r.hset('users', username, uid)
+
+        sess = session.Session(bottle.request, bottle.response)
+        sess['id'] = uid
+        sess.save()
+
         bottle.redirect('/')
-        
+
     return dict()
+
 
 bottle.run(reloader=True)
