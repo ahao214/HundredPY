@@ -10,13 +10,14 @@ def islogin():
     if sess.is_new():
         return False
     else:
-        return True
+        return sess['id']
 
 
 @bottle.get('/')
 @bottle.view('index')
 def index():
-    if islogin():
+    uid=islogin()
+    if uid:
         return dict()
     else:
         bottle.redirect('/signup')
