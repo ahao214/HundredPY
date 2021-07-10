@@ -54,4 +54,21 @@ def signup():
     return dict()
 
 
+@bottle.post('/login')
+@bottle.view('signup')
+def login():
+    username = bottle.request.POST['username']
+    password = bottle.request.POST['password']
+    uid = r.hget('users', username).decode('utf-8')
+    if uid:
+        upassword = r.hget('user:{}'.format(uid), 'password').decode('utf-8')
+        if password == upassword:
+            sess = session.Session(bottle.request, bottle.response)
+            sess['uid'] = uid
+            sess.save()
+            bottle.redirect('/')
+
+    return dict()
+
+
 bottle.run(reloader=True)
