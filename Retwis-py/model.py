@@ -61,6 +61,11 @@ class User:
     def following_num(self) -> int:
         return r.scard('user:{}:following'.format(self.id))
 
+    @staticmethod
+    def users():
+        users = to_dict(r.hgetall('users'))
+        return [User(uid) for username, uid in users.items()]
+
 
 class Post:
     def __init__(self, id: int):
@@ -96,3 +101,12 @@ class Post:
     @property
     def username(self):
         return to_string(r.hget('user:{}'.format(self.userid), 'username'))
+
+
+class Timeline:
+    @staticmethod
+    def posts(page=1, num=10):
+        start = (page-1)*num
+        end = page*num-1
+        posts_id = to_list(r.lrange('timeline', start, end))
+        return [Post(pid) for pid in posts_id]

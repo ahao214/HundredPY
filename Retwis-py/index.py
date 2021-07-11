@@ -4,7 +4,7 @@ import settings
 import session
 import time
 from convert import to_string, to_list, to_dict, to_set
-from model import User, Post
+from model import User, Post, Timeline
 
 r = settings.r
 
@@ -93,6 +93,21 @@ def post():
 
     else:
         bottle.redirect('/signup')
+
+
+@bottle.get('/timeline')
+@bottle.view('timeline')
+def timeline():
+    user = islogin()
+    if user:
+        res = {
+            'username': user.username,
+            'posts': Timeline.posts(),
+            'users': User.users
+        }
+        return res
+    else:
+        bottle.redirect('/')
 
 
 @bottle.get('/public/<filename:path>')
