@@ -46,7 +46,7 @@ class Session(dict):
 
     # 注销
     def invalid(self):
-        self.response.set_cookie(self._name, '', expire='-100')
+        self.response.set_cookie(self._name, '', expires='-100')
         r.delete(self._sid)
         self.clear()
         self._isvalid = True

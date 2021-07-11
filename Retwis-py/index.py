@@ -22,29 +22,6 @@ def islogin():
 def index():
     user = islogin()
     if user:
-        # username = to_string(r.hget('user:{}'.format(uid), 'username'))
-        # posts_id = to_list(r.lrange('user:{}:timeline'.format(uid), 0, 9))
-        # posts = {}
-        # # 博客
-        # for pid in posts_id:
-        #     post = to_dict(r.hgetall('post:{}'.format(pid)))
-        #     post['username'] = to_string(
-        #         r.hget('user:{}'.format(post['userid']), 'username'))
-        #     posts[pid] = post
-
-        # # 粉丝
-        # followers = to_list(r.smembers('user:{}:followers'.format(uid)))
-        # followers = [to_string(r.hget('user:{}'.format(uid), 'username'))
-        #              for uid in followers]
-        # # 粉丝数量
-        # followers_num = r.scard('user:{}:followers'.format(uid))
-        # # 关注
-        # following = to_list(r.smembers('user:{}.following'.format(uid)))
-        # following = [to_string(r.hget('user:{}'.format(uid), 'username'))
-        #              for uid in following]
-        # # 关注数量
-        # following_num = r.scard('user:{}:following'.format(uid))
-
         res = {
             'username': user.username,
             'posts': user.posts(),
@@ -70,7 +47,7 @@ def signup():
     username = bottle.request.POST['username']
     password = bottle.request.POST['password']
 
-    user=User.create(username,password)
+    user = User.create(username, password)
 
     if user:
         sess = session.Session(bottle.request, bottle.response)
@@ -87,8 +64,8 @@ def signup():
 def login():
     username = bottle.request.POST['username']
     password = bottle.request.POST['password']
-    user=User.find_by_username(username)
-    if user:        
+    user = User.find_by_username(username)
+    if user:
         if user.password == password:
             sess = session.Session(bottle.request, bottle.response)
             sess['id'] = user.id
@@ -98,12 +75,20 @@ def login():
     return dict()
 
 
+# 退出
+@bottle.get('/logout')
+def logout():
+    sess = session.Session(bottle.request, bottle.response)
+    sess.invalid()
+    bottle.redirect('/')
+
+
 @bottle.post('/post')
 def post():
     user = islogin()
     if user:
         content = bottle.request.POST['content']
-        Post.create(user,content)
+        Post.create(user, content)
         bottle.redirect('/')
 
     else:
