@@ -11,10 +11,10 @@
         </div>
 
         <div id="posts" class="span-15">
-            % for id,post in posts.items():
+            % for post in posts:
             <div class="post">
-                <strong>{{post['username']}}</strong> {{post['content']}}
-                <div class="date">{{post['posttime']}}</div>
+                <strong>{{post.username}}</strong> {{post.content}}
+                <div class="date">{{post.posttime}}</div>
             </div>
             % end
         </div>
@@ -24,7 +24,7 @@
             <h4>Followers:{{followers_num}}</h4>
             <ul class="user-list">
                 % for user in followers:
-                <li>{{user}}</li>
+                <li>{{user.username}}</li>
                 % end
             </ul>
         </div>
@@ -33,7 +33,7 @@
             <h4>Following:{{following_num}}</h4>
             <ul class="user-list">
                 % for user in following:
-                <li>{{user}}</li>
+                <li>{{user.username}}</li>
                 % end
             </ul>
         </div>
