@@ -14,4 +14,4 @@ def incr(key):
 
 
 incr('foo')
-print(r.get)
+print(r.get('foo'))
