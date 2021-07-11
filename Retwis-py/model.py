@@ -25,7 +25,7 @@ class User:
     def find_by_username(username: str) -> Optional[User]:
         uid = r.hget('users', username)
         if uid:
-            return User(int(id))
+            return User(int(uid))
 
         return None
 
@@ -48,7 +48,7 @@ class User:
         return [Post(pid) for pid in posts_id]
 
     def followers(self) -> List[User]:
-        followers = to_list(r.smember('user:{}:followers'.format(self.id)))
+        followers = to_list(r.smembers('user:{}:followers'.format(self.id)))
         return [User(uid) for uid in followers]
 
     def following(self) -> List[User]:
