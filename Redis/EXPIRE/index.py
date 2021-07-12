@@ -7,8 +7,6 @@ r = redis.StrictRedis()
 # 访问频率限流
 
 # 装饰器
-
-
 def limit_rate(func):
     def api(*args, **kwagrs):
         ip = bottle.request.remote_addr
@@ -36,7 +34,13 @@ def api():
 
 @bottle.get('/')
 def index():
-    bottle.redirect('/api')
+    bottle.redirect('/signup')
+
+
+@bottle.get('/signup')
+@bottle.view('signup')
+def signup():
+    return dict()
 
 
 bottle.run(reloader=True)
