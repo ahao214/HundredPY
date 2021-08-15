@@ -23,4 +23,20 @@ def sift(li, low, high):
             li[i] = tmp  # 把tmp放到某一级的位置上
             break
     else:
-        li[i] = tmp     # 把tmp放到叶子节点上
+        li[i] = tmp  # 把tmp放到叶子节点上
+
+
+def heapSort(li):
+    n = len(li)
+    for i in range((n - 2) // 2, -1, -1):
+        # i表示建堆的时候调整的部分的根的下标
+        sift(li, i, n - 1)
+
+    for i in range(n - 1, -1, -1):
+        li[0], li[i] = li[i], li[0]
+        sift(li, 0, i - 1)  # i-1是新的high
+
+
+li = [5, 7, 4, 6, 3, 1, 2, 9, 8]
+heapSort(li)
+print(li)
