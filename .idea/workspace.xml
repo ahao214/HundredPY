@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hundred.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hundred.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/hello.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/hello.xml" afterDir="false" />
+    <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="栈的实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/14/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis/01/listing_source.py" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/01/listing_source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/stack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +48,8 @@
       <recent name="F:\MyProgramm\python\hundred\04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.index">
-    <configuration name="5.17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.stack">
+    <configuration name="bucket_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +57,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Redis/05/5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\MyProgramm\python\hundred\Redis\05\5.17.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/bucket_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="access_exception" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="count_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrazyPython/07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrazyPython/07/access_exception.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/count_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="else_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="is_anagram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrazyPython/07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrazyPython/07/else_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/is_anagram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="else_test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="radix_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrazyPython/07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrazyPython/07/else_test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/radix_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Retwis-py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Retwis-py/index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,19 +156,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.hello" />
-      <item itemvalue="Python.access_exception" />
-      <item itemvalue="Python.else_test2" />
-      <item itemvalue="Python.else_test" />
-      <item itemvalue="Python.5.17" />
-      <item itemvalue="Python.index" />
+      <item itemvalue="Python.count_sort" />
+      <item itemvalue="Python.bucket_sort" />
+      <item itemvalue="Python.radix_sort" />
+      <item itemvalue="Python.is_anagram" />
+      <item itemvalue="Python.stack" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.index" />
-        <item itemvalue="Python.5.17" />
-        <item itemvalue="Python.else_test2" />
-        <item itemvalue="Python.else_test" />
-        <item itemvalue="Python.access_exception" />
+        <item itemvalue="Python.stack" />
+        <item itemvalue="Python.is_anagram" />
+        <item itemvalue="Python.radix_sort" />
+        <item itemvalue="Python.bucket_sort" />
+        <item itemvalue="Python.count_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -200,153 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00028" summary="使用字典格式化字符串">
-      <created>1601648929371</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1601648929371</updated>
-    </task>
-    <task id="LOCAL-00029" summary="if和pass">
-      <created>1601732064473</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1601732064473</updated>
-    </task>
-    <task id="LOCAL-00030" summary="断言语句assert">
-      <created>1601732220579</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1601732220579</updated>
-    </task>
-    <task id="LOCAL-00031" summary="循环">
-      <created>1601734598896</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1601734598896</updated>
-    </task>
-    <task id="LOCAL-00032" summary="日期和时间">
-      <created>1601797506157</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1601797506157</updated>
-    </task>
-    <task id="LOCAL-00033" summary="random">
-      <created>1601797800190</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1601797800190</updated>
-    </task>
-    <task id="LOCAL-00034" summary="循环和函数">
-      <created>1602214171725</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1602214171725</updated>
-    </task>
-    <task id="LOCAL-00035" summary="文件">
-      <created>1602214195213</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1602214195213</updated>
-    </task>
-    <task id="LOCAL-00036" summary="小例子：数字转人民币">
-      <created>1602484322542</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1602484322542</updated>
-    </task>
-    <task id="LOCAL-00037" summary="小例子：数字转人民币">
-      <created>1602484697263</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1602484697263</updated>
-    </task>
-    <task id="LOCAL-00038" summary="小例子：绕圈圈">
-      <created>1602655053792</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1602655053792</updated>
-    </task>
-    <task id="LOCAL-00039" summary="控制台五子棋">
-      <created>1602655878938</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1602655878938</updated>
-    </task>
-    <task id="LOCAL-00040" summary="控制台超市系统">
-      <created>1602659334523</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1602659334523</updated>
-    </task>
-    <task id="LOCAL-00041" summary="函数">
-      <created>1602668717118</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1602668717118</updated>
-    </task>
-    <task id="LOCAL-00042" summary="递归函数">
-      <created>1602668957310</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1602668957310</updated>
-    </task>
-    <task id="LOCAL-00043" summary="函数的参数">
-      <created>1602733231677</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1602733231677</updated>
-    </task>
-    <task id="LOCAL-00044" summary="函数的参数传递机制">
-      <created>1602740175194</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1602740175194</updated>
-    </task>
-    <task id="LOCAL-00045" summary="变量作用域">
-      <created>1602740661598</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1602740661598</updated>
-    </task>
-    <task id="LOCAL-00046" summary="局部函数">
-      <created>1602741166657</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1602741166657</updated>
-    </task>
-    <task id="LOCAL-00047" summary="使用函数变量">
-      <created>1602743677511</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1602743677511</updated>
-    </task>
-    <task id="LOCAL-00048" summary="类和对象">
-      <created>1602755398744</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1602755398744</updated>
     </task>
     <task id="LOCAL-00049" summary="类方法和静态方法">
       <created>1602816572758</created>
@@ -544,7 +392,154 @@
       <option name="project" value="LOCAL" />
       <updated>1625835608296</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="汉诺塔问题">
+      <created>1628947117096</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1628947117097</updated>
+    </task>
+    <task id="LOCAL-00078" summary="顺序查找">
+      <created>1628947566992</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1628947566992</updated>
+    </task>
+    <task id="LOCAL-00079" summary="二分查找">
+      <created>1628948583449</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1628948583449</updated>
+    </task>
+    <task id="LOCAL-00080" summary="二分查找">
+      <created>1628948701697</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1628948701697</updated>
+    </task>
+    <task id="LOCAL-00081" summary="冒泡排序">
+      <created>1628950506009</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1628950506009</updated>
+    </task>
+    <task id="LOCAL-00082" summary="冒泡排序">
+      <created>1628950772203</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1628950772203</updated>
+    </task>
+    <task id="LOCAL-00083" summary="计算时间">
+      <created>1628950785351</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1628950785351</updated>
+    </task>
+    <task id="LOCAL-00084" summary="选择排序">
+      <created>1629020782890</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1629020782890</updated>
+    </task>
+    <task id="LOCAL-00085" summary="插入排序">
+      <created>1629022585967</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1629022585967</updated>
+    </task>
+    <task id="LOCAL-00086" summary="快速排序">
+      <created>1629030169189</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1629030169189</updated>
+    </task>
+    <task id="LOCAL-00087" summary="堆排序">
+      <created>1629037612664</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1629037612664</updated>
+    </task>
+    <task id="LOCAL-00088" summary="堆排序">
+      <created>1629038611515</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1629038611515</updated>
+    </task>
+    <task id="LOCAL-00089" summary="topk问题">
+      <created>1629115604929</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1629115604930</updated>
+    </task>
+    <task id="LOCAL-00090" summary="归并排序">
+      <created>1629117262991</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1629117262991</updated>
+    </task>
+    <task id="LOCAL-00091" summary="希尔排序">
+      <created>1629118862512</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1629118862513</updated>
+    </task>
+    <task id="LOCAL-00092" summary="计数排序">
+      <created>1629126063565</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1629126063565</updated>
+    </task>
+    <task id="LOCAL-00093" summary="基数排序">
+      <created>1629130977691</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1629130977691</updated>
+    </task>
+    <task id="LOCAL-00094" summary="桶排序">
+      <created>1629132069309</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1629132069309</updated>
+    </task>
+    <task id="LOCAL-00095" summary="判断两个字符串是否有相同的字母组成">
+      <created>1629132602345</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1629132602345</updated>
+    </task>
+    <task id="LOCAL-00096" summary="判断两个字符串是否有相同的字母组成">
+      <created>1629132622344</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1629132622344</updated>
+    </task>
+    <task id="LOCAL-00097" summary="栈的实现">
+      <created>1629138508813</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1629138508813</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,23 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="函数" />
-    <MESSAGE value="递归函数" />
-    <MESSAGE value="函数的参数" />
-    <MESSAGE value="函数的参数传递机制" />
-    <MESSAGE value="变量作用域" />
-    <MESSAGE value="局部函数" />
-    <MESSAGE value="使用函数变量" />
-    <MESSAGE value="类和对象" />
-    <MESSAGE value="类方法和静态方法" />
-    <MESSAGE value="@函数装饰器" />
-    <MESSAGE value="成员变量" />
-    <MESSAGE value="使用property函数定义属性" />
-    <MESSAGE value="封装" />
-    <MESSAGE value="多继承" />
-    <MESSAGE value="继承" />
-    <MESSAGE value="动态属性" />
-    <MESSAGE value="type函数" />
     <MESSAGE value="多态" />
     <MESSAGE value="检查类型" />
     <MESSAGE value="枚举" />
@@ -589,36 +567,61 @@
     <MESSAGE value="redis" />
     <MESSAGE value="使用redis记录用户在线状态" />
     <MESSAGE value="使用Redis实现购物车" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用Redis实现购物车" />
+    <MESSAGE value="汉诺塔问题" />
+    <MESSAGE value="顺序查找" />
+    <MESSAGE value="二分查找" />
+    <MESSAGE value="冒泡排序" />
+    <MESSAGE value="计算时间" />
+    <MESSAGE value="选择排序" />
+    <MESSAGE value="插入排序" />
+    <MESSAGE value="快速排序" />
+    <MESSAGE value="堆排序" />
+    <MESSAGE value="topk问题" />
+    <MESSAGE value="归并排序" />
+    <MESSAGE value="希尔排序" />
+    <MESSAGE value="计数排序" />
+    <MESSAGE value="基数排序" />
+    <MESSAGE value="桶排序" />
+    <MESSAGE value="判断两个字符串是否有相同的字母组成" />
+    <MESSAGE value="栈的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈的实现" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1625835606996">
+    <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1625835606996" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1625903282678">
+    <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629139650175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625903282678" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1625903282678">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629139650175" />
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629139868080">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625903282678" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1625903282678">
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629139868080" />
+    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629139868079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625903282678" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1625903282678">
+    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629139868079" />
+    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629139868079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625903282678" />
+    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629139868079" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629139868079">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629139868079" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625901377139" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1625834471123">
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1629119052385">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1625834471123" />
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629119052385" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1629029559742">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1629029559742" />
   </component>
 </project>
