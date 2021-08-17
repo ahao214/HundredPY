@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/linklist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/linklist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="F:\MyProgramm\python\hundred\04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.linklist">
+  <component name="RunManager" selected="Python.tree">
     <configuration name="is_anagram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,27 +112,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="radix_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="hundred" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/radix_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,21 +133,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hundred" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.hello" />
-      <item itemvalue="Python.radix_sort" />
       <item itemvalue="Python.is_anagram" />
       <item itemvalue="Python.stack" />
       <item itemvalue="Python.queue" />
       <item itemvalue="Python.linklist" />
+      <item itemvalue="Python.tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tree" />
         <item itemvalue="Python.linklist" />
         <item itemvalue="Python.queue" />
         <item itemvalue="Python.stack" />
         <item itemvalue="Python.is_anagram" />
-        <item itemvalue="Python.radix_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00053" summary="使用property函数定义属性">
-      <created>1602828634567</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1602828634567</updated>
     </task>
     <task id="LOCAL-00054" summary="使用property函数定义属性">
       <created>1602828676174</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629196143604</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="链表-尾插法">
+      <created>1629196620704</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1629196620704</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="异常处理" />
     <MESSAGE value="else块" />
     <MESSAGE value="redis" />
     <MESSAGE value="使用redis记录用户在线状态" />
@@ -584,41 +583,42 @@
     <MESSAGE value="括号匹配问题" />
     <MESSAGE value="队列" />
     <MESSAGE value="链表-头插法" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表-头插法" />
+    <MESSAGE value="链表-尾插法" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表-尾插法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629196142412">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629196619504">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629196142412" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629196599566">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629196619504" />
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629211099846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629196599566" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629196599566">
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629211099846" />
+    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629211099846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629196599566" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629196599566">
+    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629211099846" />
+    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629211099845">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629196599566" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629196599566">
+    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629211099845" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629211099846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629196599566" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629211099846" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625901377139" />
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1629119052385">
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1629208402498">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629119052385" />
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629208402498" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1629029559742">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
