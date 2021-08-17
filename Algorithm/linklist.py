@@ -26,6 +26,27 @@ def createLinklistHead(li):
     return head
 
 
+def printLinklist(li):
+    while li:
+        print(li.item, end=',')
+        li = li.next
+
+
+# 尾插法
+def createLinklistTail(li):
+    head = Node(li[0])
+    tail = head
+    for ele in li[1:]:
+        node = Node(ele)
+        tail.next = node
+        tail = node
+    return head
+
+
 lhead = createLinklistHead([1, 2, 3])
-print(lhead.item)
-print(lhead.next.item)
+print("头插法数据")
+printLinklist(lhead)
+
+ltail = createLinklistTail([3, 4, 1, 2, 6, 7, ])
+print("尾插法数据")
+printLinklist(ltail)
