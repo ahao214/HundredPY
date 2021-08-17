@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,12 +155,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.hello" />
       <item itemvalue="Python.is_anagram" />
-      <item itemvalue="Python.stack" />
-      <item itemvalue="Python.queue" />
       <item itemvalue="Python.linklist" />
+      <item itemvalue="Python.queue" />
+      <item itemvalue="Python.stack" />
       <item itemvalue="Python.tree" />
+      <item itemvalue="Python.hello" />
     </list>
     <recent_temporary>
       <list>
@@ -195,13 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00054" summary="使用property函数定义属性">
-      <created>1602828676174</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1602828676175</updated>
     </task>
     <task id="LOCAL-00055" summary="使用property函数定义属性">
       <created>1602829062710</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629196620704</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="树">
+      <created>1629211110766</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1629211110767</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="else块" />
     <MESSAGE value="redis" />
     <MESSAGE value="使用redis记录用户在线状态" />
     <MESSAGE value="使用Redis实现购物车" />
@@ -584,33 +583,34 @@
     <MESSAGE value="队列" />
     <MESSAGE value="链表-头插法" />
     <MESSAGE value="链表-尾插法" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表-尾插法" />
+    <MESSAGE value="树" />
+    <option name="LAST_COMMIT_MESSAGE" value="树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629196619504">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629211109525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629196619504" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629211099846">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629211109525" />
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629211176521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629211099846" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629211099846">
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629211176521" />
+    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629211176521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629211099846" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629211099845">
+    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629211176521" />
+    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629211176521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629211099845" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629211099846">
+    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629211176521" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629211176521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629211099846" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629211176521" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
