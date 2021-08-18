@@ -33,3 +33,12 @@ def preOrder(root):
 
 
 preOrder(root)
+
+
+# 中序遍历
+def  inOrder(root):
+    if root:
+        inOrder(root.lchild)
+        print(root.data,end=',')
+        inOrder(root.rchild)
+
