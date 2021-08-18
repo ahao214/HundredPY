@@ -36,9 +36,22 @@ preOrder(root)
 
 
 # 中序遍历
-def  inOrder(root):
+def inOrder(root):
     if root:
         inOrder(root.lchild)
-        print(root.data,end=',')
+        print(root.data, end=',')
         inOrder(root.rchild)
 
+
+inOrder(root)
+
+
+# 后序遍历
+def postOrder(root):
+    if root:
+        postOrder(root.lchild)
+        postOrder(root.rchild)
+        print(root.data, end=',')
+
+
+postOrder(root)

@@ -196,13 +196,6 @@
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
     </task>
-    <task id="LOCAL-00058" summary="多继承">
-      <created>1602833780700</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1602833780700</updated>
-    </task>
     <task id="LOCAL-00059" summary="继承">
       <created>1602835934960</created>
       <option name="number" value="00059" />
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629252294904</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="中序遍历">
+      <created>1629252614730</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1629252614730</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用Redis实现购物车" />
     <MESSAGE value="汉诺塔问题" />
     <MESSAGE value="顺序查找" />
     <MESSAGE value="二分查找" />
@@ -584,33 +583,34 @@
     <MESSAGE value="树" />
     <MESSAGE value="二叉树" />
     <MESSAGE value="前序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="前序遍历" />
+    <MESSAGE value="中序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="中序遍历" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629252293844">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629252613699">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629252293844" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629252282054">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629252613699" />
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629252712147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629252282054" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629252282054">
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629252712147" />
+    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629252712147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629252282054" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629252282054">
+    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629252712147" />
+    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629252712147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629252282054" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629252282054">
+    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629252712147" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629252712147">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629252282054" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629252712147" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
