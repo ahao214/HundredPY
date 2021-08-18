@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/bst.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/bitree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/bitree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,13 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00060" summary="动态属性">
-      <created>1604221813341</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1604221813342</updated>
     </task>
     <task id="LOCAL-00061" summary="type函数">
       <created>1604221918617</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629252720613</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="层次遍历">
+      <created>1629253546425</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1629253546425</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="顺序查找" />
     <MESSAGE value="二分查找" />
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="计算时间" />
@@ -584,17 +583,18 @@
     <MESSAGE value="前序遍历" />
     <MESSAGE value="中序遍历" />
     <MESSAGE value="后序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="后序遍历" />
+    <MESSAGE value="层次遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="层次遍历" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629252719598">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629253545203">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629252719598" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629253545203" />
     <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629253537244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
