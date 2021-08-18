@@ -1,4 +1,7 @@
 # 二叉树
+
+from collections import deque
+
 class BitreeNode:
     def __init__(self, data):
         self.data = data
@@ -55,3 +58,19 @@ def postOrder(root):
 
 
 postOrder(root)
+
+
+# 层次遍历
+def levelOrder(root):
+    queue=deque()
+    queue.append(root)
+    while len(queue)>0:
+        node=queue.popleft()
+        print(node.data,end=',')
+        if node.lchild:
+            queue.append(node.lchild)
+        if node.rchild:
+            queue.append(node.rchild)
+
+
+levelOrder(root)
