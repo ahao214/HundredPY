@@ -46,3 +46,40 @@ class BST:
                     return
             else:
                 return
+
+    # node是叶子结点
+    def __remove_node_1(self, node):
+        if not node.parent:
+            self.root = None
+        if node == node.parent.lchild:  # node是它父亲的左孩子
+            node.parent.lchild = None
+        else:  # node是它父亲的右孩子
+            node.parent.rchild = None
+
+    # node只有一个左孩子
+    def __remove_node_21(self, node):
+        # node只有一个左孩子
+        if not node.parent:  # 根结点
+            self.root = node.lchild
+            node.lchild.parent = None
+        elif node == node.parent.lchild:
+            node.parent.lchild = node.lchild
+            node.lchild.parent = node.parent
+        else:
+            node.parent.rchild = node.lchild
+            node.lchild.parent = node.parent
+
+    # node只有一个右孩子
+    def __remove_node_22(self, node):
+        if not node.parent: # 根结点
+            self.root = node.rchild
+            node.rchild.parent = None
+        elif node == node.parent.lchild:
+            node.parent.lchild = node.rchild
+            node.rchild.parent = node.parent
+        else:
+            node.parent.rchild = node.rchild
+            node.rchild.parent = node.parent
+
+
+
