@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/changeMoney.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/bst.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/bst.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="F:\MyProgramm\python\hundred\04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bitree">
+  <component name="RunManager" selected="Python.changeMoney">
     <configuration name="bitree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +62,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/bitree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="changeMoney" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hundred" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/changeMoney.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,27 +133,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="hundred" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/stack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,19 +156,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.hello" />
-      <item itemvalue="Python.stack" />
       <item itemvalue="Python.queue" />
       <item itemvalue="Python.linklist" />
       <item itemvalue="Python.tree" />
       <item itemvalue="Python.bitree" />
+      <item itemvalue="Python.changeMoney" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.changeMoney" />
         <item itemvalue="Python.bitree" />
         <item itemvalue="Python.tree" />
         <item itemvalue="Python.linklist" />
         <item itemvalue="Python.queue" />
-        <item itemvalue="Python.stack" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00062" summary="type函数">
-      <created>1604222318954</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1604222318954</updated>
     </task>
     <task id="LOCAL-00063" summary="type函数">
       <created>1604222403412</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629255075711</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="二叉搜索树-删除">
+      <created>1629278705286</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1629278705286</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="冒泡排序" />
     <MESSAGE value="计算时间" />
     <MESSAGE value="选择排序" />
     <MESSAGE value="插入排序" />
@@ -584,33 +583,34 @@
     <MESSAGE value="后序遍历" />
     <MESSAGE value="层次遍历" />
     <MESSAGE value="二叉搜索树-插入" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树-插入" />
+    <MESSAGE value="二叉搜索树-删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树-删除" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629255074526">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629278704186">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629255074526" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629253537244">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629278704186" />
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629288342612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629253537244" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629253537244">
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629288342612" />
+    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629288342611">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629253537244" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629253537243">
+    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629288342611" />
+    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629288342611">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629253537243" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629253537244">
+    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629288342611" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629288342612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629253537244" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629288342612" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
