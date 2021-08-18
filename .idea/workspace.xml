@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/bitree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/bitree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/bitree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,13 +194,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00056" summary="封装">
-      <created>1602829864642</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1602829864642</updated>
     </task>
     <task id="LOCAL-00057" summary="继承">
       <created>1602831056997</created>
@@ -539,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629243586690</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="二叉树">
+      <created>1629252226837</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1629252226837</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="redis" />
     <MESSAGE value="使用redis记录用户在线状态" />
     <MESSAGE value="使用Redis实现购物车" />
     <MESSAGE value="汉诺塔问题" />
@@ -584,33 +582,34 @@
     <MESSAGE value="链表-头插法" />
     <MESSAGE value="链表-尾插法" />
     <MESSAGE value="树" />
-    <option name="LAST_COMMIT_MESSAGE" value="树" />
+    <MESSAGE value="二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629243583805">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629252225721">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629243583805" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629252021016">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629252225721" />
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629252282054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629252021016" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629252021015">
+    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629252282054" />
+    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629252282054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629252021015" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629252021015">
+    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629252282054" />
+    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629252282054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629252021015" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629252021016">
+    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629252282054" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629252282054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629252021016" />
+    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629252282054" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

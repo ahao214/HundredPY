@@ -21,6 +21,15 @@ c.lchild = b
 c.rchild = d
 g.rchild = f
 
-
 root = e
-print(root.lchild.rchild.data)
+
+
+# 前序遍历
+def preOrder(root):
+    if root:
+        print(root.data, end=',')
+        preOrder(root.lchild)
+        preOrder(root.rchild)
+
+
+preOrder(root)
