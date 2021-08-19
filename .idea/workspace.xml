@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/activitySelection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/DynamicProgramming/fib.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
       <recent name="F:\MyProgramm\python\hundred\04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.activitySelection">
+  <component name="RunManager" selected="Python.fib">
     <configuration name="activitySelection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,27 +70,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bitree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="hundred" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/bitree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="changeMoney" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,6 +83,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/changeMoney.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hundred" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/DynamicProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/DynamicProgramming/fib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,19 +156,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.hello" />
-      <item itemvalue="Python.bitree" />
       <item itemvalue="Python.changeMoney" />
       <item itemvalue="Python.fractionalBackpack" />
       <item itemvalue="Python.numberJoin" />
       <item itemvalue="Python.activitySelection" />
+      <item itemvalue="Python.fib" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fib" />
         <item itemvalue="Python.activitySelection" />
         <item itemvalue="Python.numberJoin" />
         <item itemvalue="Python.fractionalBackpack" />
         <item itemvalue="Python.changeMoney" />
-        <item itemvalue="Python.bitree" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00066" summary="检查类型">
-      <created>1604223584276</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1604223584276</updated>
     </task>
     <task id="LOCAL-00067" summary="枚举">
       <created>1604812719071</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629299316197</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="活动选择问题">
+      <created>1629300441499</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1629300441499</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="快速排序" />
     <MESSAGE value="堆排序" />
     <MESSAGE value="topk问题" />
     <MESSAGE value="归并排序" />
@@ -584,41 +583,42 @@
     <MESSAGE value="零钱找零的问题" />
     <MESSAGE value="分数背包" />
     <MESSAGE value="拼接最大数" />
-    <option name="LAST_COMMIT_MESSAGE" value="拼接最大数" />
+    <MESSAGE value="活动选择问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="活动选择问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629299315158">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629300440307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629299315158" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1629300434878">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629300440307" />
+    <state width="1259" height="88" key="GridCell.Tab.0.bottom" timestamp="1629366602664">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629300434878" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1629300434877">
+    <state width="1259" height="88" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629366602664" />
+    <state width="1259" height="88" key="GridCell.Tab.0.center" timestamp="1629366602664">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629300434877" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1629300434877">
+    <state width="1259" height="88" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629366602664" />
+    <state width="1259" height="88" key="GridCell.Tab.0.left" timestamp="1629366602664">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629300434877" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1629300434878">
+    <state width="1259" height="88" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629366602664" />
+    <state width="1259" height="88" key="GridCell.Tab.0.right" timestamp="1629366602664">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629300434878" />
+    <state width="1259" height="88" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629366602664" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625901377139" />
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1629208402498">
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1629325861077">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629208402498" />
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629325861077" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1629029559742">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
