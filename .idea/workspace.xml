@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/DynamicProgramming/gcd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/DynamicProgramming/lcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/DynamicProgramming/lcs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="F:\MyProgramm\python\hundred\04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lcs">
+  <component name="RunManager" selected="Python.gcd">
     <configuration name="activitySelection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +112,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="gcd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hundred" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/DynamicProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/DynamicProgramming/gcd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lcs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,42 +154,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numberJoin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="hundred" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/numberJoin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.hello" />
-      <item itemvalue="Python.numberJoin" />
       <item itemvalue="Python.activitySelection" />
       <item itemvalue="Python.fib" />
       <item itemvalue="Python.cut_rob" />
       <item itemvalue="Python.lcs" />
+      <item itemvalue="Python.gcd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gcd" />
         <item itemvalue="Python.lcs" />
         <item itemvalue="Python.cut_rob" />
         <item itemvalue="Python.fib" />
         <item itemvalue="Python.activitySelection" />
-        <item itemvalue="Python.numberJoin" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00074" summary="redis">
-      <created>1625833734754</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1625833734755</updated>
     </task>
     <task id="LOCAL-00075" summary="使用redis记录用户在线状态">
       <created>1625834755518</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629423122164</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="最长公共子序列">
+      <created>1629423571418</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1629423571418</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,26 +591,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629423121074">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629423570072">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629423121074" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1629423560830">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629423570072" />
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1629424239285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629423560830" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1629423560830">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629424239285" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1629424239284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629423560830" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1629423560830">
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629424239284" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1629424239284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629423560830" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1629423560830">
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629424239284" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1629424239284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629423560830" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629424239284" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
