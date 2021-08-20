@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de4140-9797-4de5-a7f0-37b0c2515be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/DynamicProgramming/lcs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/DynamicProgramming/cut_rob.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/DynamicProgramming/cut_rob.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="F:\MyProgramm\python\hundred\04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cut_rob">
+  <component name="RunManager" selected="Python.lcs">
     <configuration name="activitySelection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fractionalBackpack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lcs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hundred" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/fractionalBackpack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/DynamicProgramming/lcs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,19 +156,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.hello" />
-      <item itemvalue="Python.fractionalBackpack" />
       <item itemvalue="Python.numberJoin" />
       <item itemvalue="Python.activitySelection" />
       <item itemvalue="Python.fib" />
       <item itemvalue="Python.cut_rob" />
+      <item itemvalue="Python.lcs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lcs" />
         <item itemvalue="Python.cut_rob" />
         <item itemvalue="Python.fib" />
         <item itemvalue="Python.activitySelection" />
         <item itemvalue="Python.numberJoin" />
-        <item itemvalue="Python.fractionalBackpack" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1563112831470</updated>
       <workItem from="1572183412534" duration="275000" />
-    </task>
-    <task id="LOCAL-00071" summary="else块">
-      <created>1605707985609</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1605707985610</updated>
     </task>
     <task id="LOCAL-00072" summary="redis">
       <created>1612102417227</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629371752680</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="钢条切割问题">
+      <created>1629378691468</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1629378691468</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="希尔排序" />
     <MESSAGE value="计数排序" />
     <MESSAGE value="基数排序" />
     <MESSAGE value="桶排序" />
@@ -584,41 +583,42 @@
     <MESSAGE value="动态规划" />
     <MESSAGE value="钢条切割问题-自顶向下实现" />
     <MESSAGE value="钢条切割问题-自底向上实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="钢条切割问题-自底向上实现" />
+    <MESSAGE value="钢条切割问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="钢条切割问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1629019098628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="234" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1629019098628" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629371750450">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629378690333">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629371750450" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1629378675794">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629378690333" />
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1629422264223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629378675794" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1629378675794">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629422264223" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1629422264223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629378675794" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1629378675794">
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629422264223" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1629422264223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629378675794" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1629378675794">
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629422264223" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1629422264223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629378675794" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629422264223" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1625901377139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625901377139" />
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1629325861077">
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2" timestamp="1629378738271">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629325861077" />
+    <state x="233" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629378738271" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1629029559742">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
