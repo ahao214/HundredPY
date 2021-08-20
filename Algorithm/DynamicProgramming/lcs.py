@@ -36,6 +36,27 @@ def lcs(x, y):
     return c[m][n], b
 
 
-c,b = lcs("ABCBDAB", "BDCABA")
-for _ in b:
-    print(_)
+# c,b = lcs("ABCBDAB", "BDCABA")
+# for _ in b:
+#     print(_)
+
+
+def lcs_trackback(x, y):
+    c, b = lcs(x, y)
+    i = len(x)
+    j = len(y)
+    res = []
+    while i > 0 and j > 0:
+        if b[i][j] == 1:  # 来自左上方-匹配
+            res.append(x[i - 1])
+            i -= 1
+            j -= 1
+        elif b[i][j] == 2:
+            i -= 1
+        else:
+            j -= 1
+
+    return "".join(reversed(res))
+
+
+print(lcs_trackback("ABCBDAB", "BDCABA"))
