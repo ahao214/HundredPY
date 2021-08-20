@@ -8,3 +8,14 @@ def gcd(x, y):
 
 
 print(gcd(12, 16))
+
+
+def gcd2(a, b):
+    while b > 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+
+
+print(gcd2(12, 16))
