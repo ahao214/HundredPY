@@ -25,3 +25,13 @@ class Solution:
             cur = head
             head = head.next
         return res.next
+
+
+    # 递归方法
+    def swapPair(self,head:ListNode)->ListNode:
+        if head is None or head.next is None:
+            return head
+        nxt = head.next
+        head.next = self.swapPair(head.next.next)
+        nxt.next = head
+        return nxt
