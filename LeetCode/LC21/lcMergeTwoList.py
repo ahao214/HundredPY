@@ -9,6 +9,7 @@ class ListNode:
 
 
 class Solution:
+    # 迭代法
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         res = ListNode()
         cur = res
