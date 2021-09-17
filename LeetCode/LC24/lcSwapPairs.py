@@ -9,6 +9,7 @@ class ListNode:
 
 class Solution:
 
+    # 迭代法
     def swapPairs(self, head: ListNode) -> ListNode:
         if head is None or head.next is None:
             return head
